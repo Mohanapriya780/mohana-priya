@@ -1,0 +1,60 @@
+2D Graphics Editor in C – Project Prompt
+
+Create a console-based 2D Graphics Editor using the C programming language.
+
+Requirements:
+
+1. Create a drawing canvas of fixed size:
+
+   * Width: 80 pixels
+   * Height: 24 pixels
+   * Empty space represented by '_'
+   * Drawn pixels represented by '*'
+
+2. Support multiple drawable objects:
+
+   * Line
+   * Rectangle
+   * Circle
+   * Triangle
+
+3. Store objects using a structure that contains:
+
+   * Shape type
+   * Coordinates
+   * Radius (for circles)
+   * Active/inactive status
+
+4. Implement drawing algorithms:
+
+   * Line drawing using Bresenham's algorithm
+   * Rectangle drawing using four lines
+   * Circle drawing using radius distance calculation
+   * Triangle drawing using three connected lines
+
+5. Provide object management features:
+
+   * Add object
+   * Delete object
+   * List all objects
+   * Redraw canvas from stored objects
+   * Display final picture
+
+6. Create a menu-driven interface:
+
+   1. Add object
+   2. Delete object
+   3. Modify object
+   4. Display picture
+   5. List objects
+   6. Exit
+
+7. Additional constraints:
+
+   * Maximum objects: 100
+   * Prevent drawing outside canvas boundaries
+   * Store all shapes in an array
+   * Redraw the complete scene whenever display is requested
+
+Goal:
+Build a simple terminal-based graphics editor that demonstrates arrays, structures, functions, drawing algorithms, and object management in C.
